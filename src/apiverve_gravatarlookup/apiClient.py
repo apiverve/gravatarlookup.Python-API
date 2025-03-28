@@ -10,10 +10,10 @@ class GravatarlookupAPIClient:
         
         self.api_key = api_key
         self.secure = secure
-        self.base_url = 'https://api.apiverve.com/v1.0.9/gravatarlookup'
+        self.base_url = 'https://api.apiverve.com/v1/gravatarlookup'
         self.headers = {
             'x-api-key': self.api_key,
-            'auth-mode': 'pypi'
+            'auth-mode': 'pypi-package'
         }
 
     def execute(self, params=None):
