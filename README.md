@@ -91,18 +91,31 @@ print(result)
         "display": "@apivervehq",
         "url": "https://twitter.com/apivervehq",
         "iconUrl": "https://gravatar.com/icons/twitter-alt.svg",
+        "is_hidden": false,
         "username": "apivervehq",
-        "verified": "true",
+        "verified": true,
         "name": "Twitter",
         "shortname": "twitter"
+      },
+      {
+        "domain": "github.com",
+        "display": "apivervehq",
+        "url": "https://github.com/apivervehq",
+        "iconUrl": "https://gravatar.com/icons/github.svg",
+        "is_hidden": true,
+        "username": "apivervehq",
+        "verified": true,
+        "name": "GitHub",
+        "shortname": "github"
       },
       {
         "domain": "calendly.com",
         "display": "apiverve",
         "url": "https://calendly.com/apiverve",
         "iconUrl": "https://gravatar.com/icons/calendly.svg",
+        "is_hidden": false,
         "username": "calendly.com",
-        "verified": "true",
+        "verified": true,
         "name": "Calendly",
         "shortname": "calendly"
       }
@@ -135,7 +148,7 @@ All usage of the APIVerve website, API, and services is subject to the [APIVerve
 ## License
 Licensed under the The MIT License (MIT)
 
-Copyright (&copy;) 2024 APIVerve, and Evlar LLC
+Copyright (&copy;) 2025 APIVerve, and EvlarSoft LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
